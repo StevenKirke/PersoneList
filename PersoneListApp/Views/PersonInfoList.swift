@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PersonInfoList: View {
-    var model: ModelPersone
+    let model: ModelPersone
     var body: some View {
         HStack(alignment: .top, spacing: 40){
             VStack(alignment: .leading, spacing: 5) {
